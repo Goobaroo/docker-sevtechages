@@ -16,11 +16,13 @@
 
 ## Description
 
-This container is primaryily built to run on an [Unraid](https://unraid.net) server, outside of that your milliage will vary.
+This container is built to run on an [Unraid](https://unraid.net) server, outside of that your milliage will vary.
 
-The docker on first run will download the same version as tagged of SevTech: Ages - 3.2.3 and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
+The docker on first run will download the same version as tagged of `SevTech: Ages - 3.2.3` and install it.  This can take a while as the Forge installer can take a bit to complete.  You can watch the logs and it will eventually finish.
 
 After the first run it will simply start the server.
+
+Note: There are no modded minecraft files shipped in the container, they are all downloaded at runtime.
 
 ## Requirements
 
