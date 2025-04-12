@@ -11,9 +11,9 @@ else
 	exit 9
 fi
 
-if ! [[ -f SevTech_Ages_Server_3.2.2.zip ]]; then
+if ! [[ -f SevTech_Ages_Server_3.2.3.zip ]]; then
 	rm -fr config journeymap mods resources scripts structures SevTech_Ages_Server*.zip
-	curl -Lo SevTech_Ages_Server_3.2.2.zip 'https://edge.forgecdn.net/files/3559/149/SevTech_Ages_Server_3.2.2.zip' && unzip -u -o SevTech_Ages_Server_3.2.2.zip -d /data
+	curl -Lo SevTech_Ages_Server_3.2.3.zip 'https://edge.forgecdn.net/files/3570/46/SevTech_Ages_Server_3.2.3.zip' && unzip -u -o SevTech_Ages_Server_3.2.3.zip -d /data
 	chmod +x Install.sh
 	./Install.sh
 fi
