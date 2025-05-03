@@ -2,9 +2,9 @@
 
 FROM openjdk:8u312-jre-buster
 
-LABEL version="3.2.3"
+LABEL version="3.2.0"
 LABEL homepage.group=Minecraft
-LABEL homepage.name="SevTech: Ages - 3.2.3"
+LABEL homepage.name="SevTech: Ages - 3.2.0"
 LABEL homepage.icon="https://media.forgecdn.net/avatars/147/67/636574428512291945.png"
 LABEL homepage.widget.type=minecraft
 LABEL homepage.widget.url=udp://SevTechAges:25565
